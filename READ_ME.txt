@@ -1,0 +1,7 @@
+The project involves developing a predictive model for loan default probability (PD) based on borrower data, including income, total outstanding loans, and other relevant metrics. The model will use supervised learning techniques such as regression or decision trees to learn patterns from historical data, enabling it to predict the likelihood of a borrower defaulting on a loan.
+
+Once trained, the model will provide a function that, given borrower details, estimates the probability of default. This estimation is crucial for calculating the expected loss on a loan, assuming a recovery rate of 10%.
+
+Additionally, the model needs to implement quantisation (bucketing) of FICO scores into rating categories. This process involves dividing FICO scores into distinct groups or buckets, each representing a range of creditworthiness levels. The goal is to create a rating map where lower ratings signify better credit scores, facilitating easier risk assessment and decision-making.
+
+The overall objective is to create a robust and generalisable approach that can be applied to future datasets, ensuring accurate predictions of default probabilities and effective risk management in lending scenarios.
